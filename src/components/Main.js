@@ -3,6 +3,7 @@ import { articles } from "../service/Articles";
 
 const Main = () =>{
     useEffect(()=>{
+        console.log('asda');
        articles.getArticles()
     }, [])
     return (
