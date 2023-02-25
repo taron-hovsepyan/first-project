@@ -1,0 +1,1 @@
+export const APIT_URL = 'https://apingweb.com/api/'
