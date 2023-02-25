@@ -22,7 +22,6 @@ export default function SignUp() {
         })
 
     const handleChangeInput = ({e, isNumber})=>{
-      console.log('asda');
         const {name, value} = e.target
         if(isNumber){
             const reg =/^\d+$/g;
